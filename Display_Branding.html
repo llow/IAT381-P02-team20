@@ -1,10 +1,10 @@
-<html> 
+<html lang="en">
 
   <head>
 
     <!-- This defines what character set (language/fonts) by this webpage -->
     <meta charset="utf-8">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="Display_Branding.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
     <title>My Most Hideous Page Ever</title>
@@ -17,4 +17,56 @@
 
 <p> Body Text - Paragraphs </p>
 
+<section id="navbar">
+  	<h2> 
+  		 <a href="#" target="_blank">About</a>
+  		 <a href="#" target="_blank">Muffins</a>
+  		 <a href="#" target="_blank">Order</a>
+  		 <a href="#" target="_blank">Contact Us</a>
+  	</h2>
+  </section>
+
+
+  <form>
+
+  	 <!-- Labels are associated with 'ids', NOT with 'name' attributes --> 
+      <label for="form-name">Name:</label>
+      <!-- Input elements should have a 'type' defined to help with processing -->
+      <input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+
+      <label for="form-email">Email:</label>
+      <input type="text" id="form-email" name="form-email">
+
+      <label for="form-phone">Phone Number:</label>
+      <input type="text" id="form-phone" name="form-phone">
+
+      <label for="form-pickDate">Pick-Up Date:</label>
+      <input type="text" id="form-pickDate" name="form-pickDate">
+
+      <label for="form-pickTime">Pick-Up Time:</label>
+      <input type="text" id="form-time" name="form-time">
+
+      <label for="form-comment">Comment:</label>
+      <!-- Textareas allow for multi-line text input instead of a single line -->
+      <textarea id="form-comment" name="form-comment" placeholder="Please place comment here"></textarea>
+
+
+
+      <!-- Buttons-->
+  	  <input type="submit" value="Submit your comment">
+  	  <input type="submit" value="Next">
+  	  <input type="submit" value="Submit Order">
+
+    </form>
+
+
+
+
 </html>
+
+
+
+
+
+ 
+  

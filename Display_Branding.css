@@ -23,3 +23,45 @@ p {
 	color: #000000;
 
 }
+
+a {
+	
+}
+
+a:hover, a:focus, a:active {
+	color:blue;
+	text-decoration: none;
+}
+a:visited {
+	color:gray;
+}
+
+form {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	padding: 0.5rem;
+}
+
+form label {
+	display: block;
+	margin-top: 1rem;
+}
+
+form input, form textarea {
+	display: block;
+	font-size: 0.6rem;
+	padding: 0.25rem;
+	border: 0.1rem solid #000000;
+
+}
+
+form input:hover, form textarea:hover{
+	border-color: brown;
+	background-color: orange ; 
+	color: white;
+}
+
+form input:active {
+	border: 0.3rem dashed blue;
+}
