@@ -1,0 +1,25 @@
+/* this is our style sheet for displaying our branding */
+
+body{
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 4rem;
+	font-family: 'Pacifico', cursive;
+	color: #000000;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 2rem; 
+	color: #744C28;
+}
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.8rem;
+	color: #000000;
+
+}
