@@ -1,7 +1,7 @@
 /* this is our style sheet for displaying our branding */
 
 body{
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: 'Duru Sans', sans-serif; 
 	font-size: 10px;
 }
 
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Duru Sans', sans-serif; 
 	font-size: 2rem; 
 	color: #744C28;
 }
@@ -24,44 +24,75 @@ p {
 
 }
 
+
+#navbar{
+
+}
+
+
 a {
+	font-family: 'Duru Sans', sans-serif; 
+	text-decoration: none;
+	color:#744C28;
+	font-size:1.1rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+
+}
+
+a:focus, a:active {
+	background-color: #ffffff
 	
 }
 
-a:hover, a:focus, a:active {
-	color:blue;
-	text-decoration: none;
+a:hover {
+	background-color: #A87B4F;
+	color: #ffffff;
+
 }
-a:visited {
-	color:gray;
-}
+
 
 form {
 	font-size: 0.8rem;
-	text-transform: uppercase;
+	font-family: helvetica, sans-serif; 
 	background-color: #ffffff;
 	padding: 0.5rem;
 }
 
 form label {
+
 	display: block;
 	margin-top: 1rem;
 }
-
-form input, form textarea {
+ 
+form input,form textarea {
 	display: block;
 	font-size: 0.6rem;
 	padding: 0.25rem;
 	border: 0.1rem solid #000000;
 
+
+}
+
+
+section input {
+	font-family: 'Duru Sans', sans-serif; 
+	font-size: 0.6rem;
+	color: #ffffff;
+	border: 0.1rem solid #000000;
+	border-radius: 0.15rem;
+	padding:0.25rem;
+	background-color: #9e8d7d;
+
+
+
 }
 
 form input:hover, form textarea:hover{
-	border-color: brown;
-	background-color: orange ; 
+	border-color: #A87B4F;
 	color: white;
 }
 
 form input:active {
-	border: 0.3rem dashed blue;
+
 }
