@@ -41,13 +41,16 @@ a {
 }
 
 a:focus, a:active {
-	background-color: #ffffff
+	background-color: #ffffff;
+
 	
 }
 
 a:hover {
 	background-color: #A87B4F;
 	color: #ffffff;
+
+
 
 }
 
