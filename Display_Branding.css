@@ -93,7 +93,7 @@ section input {
 
 form input:hover, form textarea:hover{
 	border-color: #A87B4F;
-	color: white;
+
 }
 
 form input:active {
