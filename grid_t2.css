@@ -2,7 +2,7 @@
 
 [class*='col-']{
 	float:left;
-	padding: 2rem;
+	padding: 0rem;
 	text-align: left;
 }
 
@@ -22,19 +22,30 @@
 	width: 33.333%;
 }
 
+
+
+@media (max-width: 1070px) {
+
+	.Side{
+		width: 100%;
+	}
+}
 .col-2of3 {
 	width: 66.666%;
 }
 
-@media (max-width: 600px) {
-
-	.col-1of3 {
+@media (max-width:700px) {
+		.col-2of3 {
 		width: 100%;
 	}
 }
 
-@media (max-width:782px) {
-		.col-2of3 {
+.col-1of5 {
+	width:20%;
+}
+
+@media (max-width: 480px) {
+	.col-1of5 {
 		width: 100%;
 	}
 }
