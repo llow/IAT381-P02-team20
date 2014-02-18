@@ -32,20 +32,24 @@
 	}
 }
 
-.container {
+.container{
   margin: 0 auto;
-
+  max-width: 480px;
   width: 100%;
-  background-color: blue;
+  background-color: red;
 }
 
 .col-1of2{
 	width: 50%;
+	background-color: black;
 }
 
 @media (max-width: 480px){
 
-	.col-1of2{
+	.Side{
 		width:100%;
+	}
+	.col-1of2{
+		width: 100%;
 	}
 }
