@@ -1,0 +1,55 @@
+/* grid.css; defining grids for template 3 */
+
+/* *= looking for specific string, whenever it reference col- apply this styling */
+[class*='col-'] {
+	float: left;
+	text-align: left;
+
+}
+
+/*call class with a period*/
+.col-1of5 {
+	/*padding-left: 5rem;
+	padding-right: 5rem;*/
+	width: 20%;
+
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* * says we want to style everything */
+*, *:after, *:before { 
+	-webkit-box-sizing: border-box;
+	- moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.col-1of4 {
+	width:25%;
+} 
+	
+
+/* specify it is a media query, must have a space after media*/
+@media (max-width: 800px) {
+	.col-1of4{
+		width: 100%;
+	}
+
+}
+
+.col-1of5 { /*nav bar */
+	width:20%;
+}
+
+@media (max-width: 480px) { 
+	.col-1of5 {/*nav bar mobile response*/
+		width: 100%;
+		text-align: center;
+	}
+
+
+}

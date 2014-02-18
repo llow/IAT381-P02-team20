@@ -1,31 +1,55 @@
 /* this is our style sheet for displaying our branding */
 
 body{
-	font-family: 'Duru Sans', sans-serif; 
+	font-family: 'Helvetica', sans-serif; 
 	font-size: 10px;
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 2.5rem;
 	font-family: 'Pacifico', cursive;
 	color: #000000;
+	padding-left: 8rem;
+	padding-right: 10rem;
 }
 
 h2 {
 	font-family: 'Duru Sans', sans-serif; 
-	font-size: 2rem; 
+	font-size: 0.5rem; 
 	color: #744C28;
+	text-align: left;
+	padding-left: 0rem;
+}
+
+h3 {
+	font-family: 'Duru Sans', sans-serif; 
+	font-size: 1rem; 
+	color: #744C28;
+	text-align: left;
+	padding: 0rem;
 }
 
 p {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 0.8rem;
 	color: #000000;
+	text-align: left;
+	padding-left: 10rem;
+	padding-right: 10rem;
 
 }
 
+nav a, nav a:visited {
+	display: inline-block;
+	color: #744C28;
+	font-size: 1rem;
+	text-decoration: none;
+	width: 100%; /*filling 100% of each column*/
+}
 
-#navbar{
+
+.navgrid{
+	font-size: 1rem;
 
 }
 
@@ -99,3 +123,5 @@ form input:hover, form textarea:hover{
 form input:active {
 
 }
+
+
