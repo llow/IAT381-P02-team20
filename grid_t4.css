@@ -1,0 +1,51 @@
+/* grid.css; defining grids for my site */
+
+[class*='col-']{
+	float:left;
+	padding: 0;
+	text-align: center;
+
+}
+
+.col-1of5{
+	width: 20%;
+
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+
+	.col-1of5 {
+		width: 100%;
+		font-size: 90%;
+	}
+}
+
+.container {
+  margin: 0 auto;
+
+  width: 100%;
+  background-color: blue;
+}
+
+.col-1of2{
+	width: 50%;
+}
+
+@media (max-width: 480px){
+
+	.col-1of2{
+		width:100%;
+	}
+}
