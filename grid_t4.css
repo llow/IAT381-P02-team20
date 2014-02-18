@@ -32,12 +32,7 @@
 	}
 }
 
-.container{
-  margin: 0 auto;
-  max-width: 45px;
-  width: 100%;
-  background-color: red;
-}
+
 
 .col-1of2{
 	width: 50%;
