@@ -24,34 +24,34 @@ p {
 
 }
 
-
-#navbar{
-
-}
-
-
 a {
-	font-family: 'Duru Sans', sans-serif; 
+	font-size: 0.8rem;
+}
+
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1rem 1.25rem;
 	text-decoration: none;
-	color:#744C28;
-	font-size:1.1rem;
-	padding-right: 1.5rem;
-	padding-left: 1.5rem;
-
+	width: 100%;
 }
 
-a:focus, a:active {
-	background-color: #ffffff;
 
-	
+nav a.green {
+	background-color: green;
 }
 
-a:hover {
-	background-color: #A87B4F;
-	color: #ffffff;
+
+nav a.orange {
+	background-color: orange;
+}
 
 
-
+nav a:hover, nav a:active, nav a:focus {
+	background-color: gray;
+	color: white;
 }
 
 
