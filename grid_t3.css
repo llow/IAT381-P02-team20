@@ -3,7 +3,7 @@
 /* *= looking for specific string, whenever it reference col- apply this styling */
 [class*='col-'] {
 	float: left;
-	text-align: left;
+	text-align: center;
 
 }
 
