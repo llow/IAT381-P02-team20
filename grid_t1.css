@@ -1,0 +1,63 @@
+/* grid.css; defining grids for my site */
+
+/* *= looking for specific string, whenever it reference col- apply this styling */
+[class*='col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+
+}
+
+/*call class with a period*/
+.col-1of5 {
+	width: 10%;
+
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* * says we want to style everything */
+*, *:after, *:before { 
+	-webkit-box-sizing: border-box;
+	- moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.col-1of1 {
+	width:100%;
+}
+
+.PromoDescrip {
+	margin-left: 4rem;
+	margin-right: 4rem;
+
+}
+
+
+/* specify it is a media query, must have a space after media*/
+@media (max-width: 800px) {
+	.Promo{
+		width: 100%;
+
+	}
+}
+
+.col-1of5 {
+	width:20%;
+}
+
+@media (max-width: 480px) {
+	.col-1of5 {
+		width: 100%;
+	}
+
+	.PromoDescrip {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+}
