@@ -31,6 +31,13 @@
 	width:100%;
 }
 
+.PromoDescrip {
+	margin-left: 4rem;
+	margin-right: 4rem;
+
+}
+
+
 /* specify it is a media query, must have a space after media*/
 @media (max-width: 800px) {
 	.Promo{
@@ -47,4 +54,10 @@
 	.col-1of5 {
 		width: 100%;
 	}
+
+	.PromoDescrip {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
 }
