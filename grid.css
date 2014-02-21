@@ -5,7 +5,6 @@
 /* *= looking for specific string, whenever it reference col- apply this styling */
 [class*='col-'] {
 	float: left;
-	padding: 0;
 	text-align: center;
 
 }
@@ -34,6 +33,7 @@
 
 .col-1of3 {
 	width: 33.333%;
+	text-align: left;
 }
 
 .col-1of4 {
@@ -43,6 +43,7 @@
 
 .col-2of3 {
 	width: 66.666%;
+	text-align: left;
 }
 
 .expansion{
