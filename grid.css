@@ -1,3 +1,5 @@
+/*Grid.css for entire site*/
+
 /* grid.css; defining grids for my site */
 
 /* *= looking for specific string, whenever it reference col- apply this styling */
@@ -8,11 +10,6 @@
 
 }
 
-/*call class with a period*/
-.col-1of5 {
-	width: 10%;
-
-}
 
 .grid:after {
 	content: "";
@@ -27,8 +24,30 @@
 	box-sizing: border-box;
 }
 
+.col-1of5 {
+	width:20%;
+}
+
 .col-1of1 {
 	width:100%;
+}
+
+.col-1of3 {
+	width: 33.333%;
+}
+
+.col-1of4 {
+	width:25%;
+	text-align: left;
+} 
+
+.col-2of3 {
+	width: 66.666%;
+}
+
+.expansion{
+	width: 50%;
+	background-color: black;
 }
 
 .PromoDescrip {
@@ -38,26 +57,40 @@
 }
 
 
+@media (max-width: 1070px) {
+
+	.Side{
+		width: 100%;
+	}
+}
+
 /* specify it is a media query, must have a space after media*/
 @media (max-width: 800px) {
 	.Promo{
 		width: 100%;
-
+	}
+	.col-2of3 {
+		width: 100%;
+	}
+	.col-1of4{
+		width: 100%;
 	}
 }
-
-.col-1of5 {
-	width:20%;
 }
 
 @media (max-width: 480px) {
 	.col-1of5 {
 		width: 100%;
 	}
-
 	.PromoDescrip {
 		margin-right: 0;
 		margin-left: 0;
+	}
+	.Side{
+		width:100%;
+	}
+	.expansion{
+		width: 100%;
 	}
 
 }
