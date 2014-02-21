@@ -25,9 +25,9 @@ h2 {
 
 h3 {
 	font-family: 'Duru Sans', sans-serif; 
-	font-size: 1rem; 
+	font-size: 0.8rem; 
 	color: #744C28;
-	text-align: left;
+	text-align: center;
 	padding: 0rem;
 }
 
@@ -46,13 +46,13 @@ nav a, nav a:visited {
 	font-size: 1rem;
 	text-decoration: none;
 	width: 100%; /*filling 100% of each column*/
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 
 
 nav a:hover, nav a:active, nav a:focus {
-	background-color: #744C28;
+	background-color: #A87B4F;
 	color: white;
 }
 
