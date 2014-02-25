@@ -60,6 +60,10 @@ nav a:hover, nav a:active, nav a:focus {
 	color: white;
 }
 
+img {
+	margin-bottom: 0.5rem;
+}
+
 
 form {
 	font-size: 0.8rem;
