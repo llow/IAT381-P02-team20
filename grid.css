@@ -33,7 +33,10 @@
 
 .col-1of2 {
 	width: 50%;
-	background-color: black;
+	height: 55%;
+	background-color: gray;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .col-1of3 {
