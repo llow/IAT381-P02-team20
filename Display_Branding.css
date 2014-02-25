@@ -3,8 +3,8 @@
 body{
 	font-family: 'Helvetica', sans-serif; 
 	font-size: 10px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 h1 {
@@ -56,14 +56,21 @@ nav a, nav a:visited {
 
 
 nav a:hover, nav a:active, nav a:focus {
-	background-color: #A87B4F;
-	color: white;
+	text-decoration: underline;
+	color: #744C28;
 }
 
 img {
 	margin-bottom: 0.5rem;
 }
 
+.bar {
+	text-align: center;
+	border: 1px;
+
+	color: #744C28;
+
+}
 
 form {
 	font-size: 0.8rem;
