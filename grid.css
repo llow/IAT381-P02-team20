@@ -23,8 +23,13 @@
 	box-sizing: border-box;
 }
 
-.col-1of5 {
+.col-1of5A {
 	width:20%;
+}
+
+.col-1of5B {
+	width:20%;
+	padding-top: 6rem;
 }
 
 .col-1of1 {
@@ -77,13 +82,26 @@
 	.col-1of4{
 		width: 100%;
 	}
-}
+	.col-1of5A {
+		width: 100%;
+	}
+	.col-1of5B {
+		width: 100%
+		padding-top: 0;
+	}
+
 }
 
 @media (max-width: 480px) {
-	.col-1of5 {
+	.col-1of5B {
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.col-1of5A {
 		width: 100%;
 	}
+
 	.PromoDescrip {
 		margin-right: 0;
 		margin-left: 0;
