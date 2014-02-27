@@ -97,12 +97,14 @@ form input,form textarea {
 
 section input {
 	font-family: 'Duru Sans', sans-serif; 
-	font-size: 0.6rem;
+	font-size: 1rem;
 	color: #ffffff;
 	border: 0.1rem solid #000000;
 	border-radius: 0.15rem;
 	padding:0.25rem;
 	background-color: #9e8d7d;
+	float:right;
+
 
 
 
@@ -116,5 +118,11 @@ form input:hover, form textarea:hover{
 form input:active {
 
 }
+
+#buttons{
+		padding-right: 5%;
+
+}
+
 
 
