@@ -45,8 +45,6 @@
 	margin-bottom: 2%
 }
 
-	
-
 .col-1of3 {
 	width: 33.333%;
 	text-align: left;
@@ -59,7 +57,7 @@
 } 
 
 .col-2of3 {
-	width: 66.666%;
+	width: 50%;
 	text-align: left;
 }
 
@@ -85,9 +83,7 @@
 
 @media (max-width: 1070px) {
 
-	.Side{
-		width: 100%;
-	}
+
 }
 
 /* specify it is a media query, must have a space after media*/
@@ -95,9 +91,7 @@
 	.Promo{
 		width: 100%;
 	}
-	.col-2of3 {
-		width: 100%;
-	}
+
 	.col-1of4{
 		width: 100%;
 	}
@@ -128,13 +122,6 @@
 	.PromoDescrip {
 		margin-right: 0;
 		margin-left: 0;
-	} 
-	.Side{
-		width:100%;
-	}
-	.expansion{
-		width: 100%;
-	}
 
 	.col-1of4 {
 		text-align: left;
