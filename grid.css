@@ -66,6 +66,13 @@
 
 }
 
+.des {
+	width:100%;
+	text-align: left;
+	margin-bottom: 1rem;
+
+}
+
 
 @media (max-width: 1070px) {
 
