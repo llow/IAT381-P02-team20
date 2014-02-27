@@ -45,8 +45,14 @@
 }
 
 .col-1of3 {
-	width: 33.333%;
+	width: 25%;
 	text-align: left;
+}
+
+.col-1of3A {
+	width:33.333%;
+	text-align: left;
+	margin-left: 5%;
 }
 
 .col-1of4 {
@@ -56,8 +62,9 @@
 } 
 
 .col-2of3 {
-	width: 66.666%;
+	width: 50%;
 	text-align: left;
+	margin-right: 4rem;
 }
 
 .PromoDescrip {
@@ -126,5 +133,16 @@
 	.col-1of4 {
 		text-align: left;
 	}
+
+	.col-1of3A {
+	width:100%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.col-1of3 {
+	width: 100%;
+	text-align: left;
+}
 
 }
