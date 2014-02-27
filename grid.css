@@ -38,21 +38,18 @@
 
 .col-1of2 {
 	width: 50%;
-	height: 55%;
-	background-color: gray;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	height: 45%;
+	background-color: #F2F2F2;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 2%
 }
+
+	
 
 .col-1of3 {
-	width: 25%;
+	width: 33.333%;
 	text-align: left;
-}
-
-.col-1of3A {
-	width:33.333%;
-	text-align: left;
-	margin-left: 5%;
 }
 
 .col-1of4 {
@@ -62,9 +59,8 @@
 } 
 
 .col-2of3 {
-	width: 50%;
+	width: 66.666%;
 	text-align: left;
-	margin-right: 4rem;
 }
 
 .PromoDescrip {
@@ -103,8 +99,12 @@
 		width: 100%;
 	}
 	.col-1of5B {
-		width: 100%
+		width: 100%;
 		padding-top: 0;
+	}
+
+	.des{
+		width:100%;
 	}
 
 }
@@ -134,15 +134,13 @@
 		text-align: left;
 	}
 
-	.col-1of3A {
-	width:100%;
-	text-align: left;
-	margin-left: 5%;
-}
+	.des{
+		width:100%;
+	}
 
-.col-1of3 {
-	width: 100%;
-	text-align: left;
-}
+	.col-1of2{
+		width: 100%;
+		font-size: 50%;
+	}
 
 }
