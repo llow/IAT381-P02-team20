@@ -70,11 +70,16 @@
 
 }
 
+/*description for order page "please fill out the info below"*/
 .des {
 	width:100%;
 	text-align: left;
 	margin-bottom: 1rem;
 
+}
+
+.Promo {
+	margin-bottom: 4rem;
 }
 
 
