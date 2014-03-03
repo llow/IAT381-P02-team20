@@ -72,11 +72,12 @@ img {
 
 }
 
+
 form {
 	font-size: 0.8rem;
 	font-family: helvetica, sans-serif; 
-	background-color: #ffffff;
-	padding: 0.5rem;
+	/*background-color: #ffffff;*/
+	/*padding: 0.5rem;*/
 }
 
 form label {
