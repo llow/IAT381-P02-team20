@@ -62,7 +62,7 @@
 
 .col-2of3 {
 	width: 50%;
-	/*text-align: left;*/
+	text-align: left;
 }
 
 .PromoDescrip {
@@ -144,6 +144,10 @@
 
 	.col-2of3 {
 		text-align: center;
+	}
+
+	.col-1of3{
+		width: 100%;
 	}
 
 
