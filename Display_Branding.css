@@ -121,8 +121,21 @@ form input:active {
 }
 
 #buttons{
-		padding-right: 5%;
+	padding-right: 5%;
 
+}
+
+#review-order {
+	width: 300px;
+	height: 300px;
+	resize:none;
+
+}
+
+#form-comment{
+	width: 436px;
+	height: 84px;
+	
 }
 
 
