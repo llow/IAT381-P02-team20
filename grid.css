@@ -114,10 +114,10 @@
 }
 
 @media (max-width: 480px) {
-	.col-1of5B {
+/*	.col-1of5B {
 		width: 100%;
 		padding-top: 0;
-	}
+	}*/
 
 	.col-1of5A {
 		width: 100%;
@@ -126,8 +126,9 @@
 	.PromoDescrip {
 		margin-right: 0;
 		margin-left: 0;
+	}
 
-	.col-1of4 {
+	.col-1of4{
 		text-align: left;
 	}
 
@@ -137,7 +138,6 @@
 
 	.col-1of2 {
 		width: 100%;
-		font-size: 50%;
 		padding-top: 1rem;
 	}
 
