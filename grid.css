@@ -45,13 +45,21 @@
 	margin-bottom: 2%
 }
 
-.col-1of3 {
-	width: 33.333%;
-	text-align: left;
+.col-1of3A {
+	width:33.33%;
+	/*margin-left: 5%;*/
 }
 
-.col-1of3A {
-	margin-left: 4rem;
+.col-1of3 {
+	width: 33.33%;
+	text-align: left;
+	margin-left: 3%;
+}
+
+.col-1of3B {
+	width: 20%;
+	/*margin-right: 5%;*/
+	text-align: left;
 }
 
 .col-1of4 {
