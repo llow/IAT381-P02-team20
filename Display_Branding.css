@@ -41,6 +41,14 @@ p {
 
 }
 
+ul {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.8rem;
+	color: #424242;
+	text-align: left;
+	margin-bottom: -10px;
+}
+
 nav{
 	height:25px;
 }
