@@ -23,15 +23,18 @@
 	box-sizing: border-box;
 }
 
+/*Nav Bar*/
 .col-1of5A {
 	width:20%;
 }
 
+/*Nav Bar*/
 .col-1of5B {
 	width:20%;
 	padding-top: 6rem;
 }
 
+/*Home Page*/
 .col-1of1 {
 	width:100%;
 }
@@ -45,23 +48,27 @@
 	margin-bottom: 2%
 }
 
+/* About Us */
 .col-1of3A {
 	width:33.33%;
 	/*margin-left: 5%;*/
 }
 
+/*Contact & ReviewOrder*/
 .col-1of3 {
 	width: 33.33%;
 	text-align: left;
 	margin-left: 3%;
 }
 
+/*Contact Page*/
 .col-1of3B {
 	width: 20%;
 	/*margin-right: 5%;*/
 	text-align: left;
 }
 
+/* Product Page */
 .col-1of4 {
 	width:25%;
 	text-align: left;
@@ -71,10 +78,19 @@
 
 }
 
-
+/* About Us */
 .col-2of3 {
 	width: 50%;
 	text-align: left;
+}
+
+/* ReviewOrder */
+.col-2of3A {
+	width: 60%;
+	float: left;
+	height: 20%;
+	margin: 1rem;
+	display: block;
 }
 
 .PromoDescrip {
@@ -85,7 +101,19 @@
 }
 
 .ReviewItem {
-	display: block;
+	width:95%;
+	padding:2%;
+	border:1px solid gray;
+	margin:-1px;
+}
+
+.TotalPrice {
+	text-align: right;
+	width:30%;
+	padding:2%;
+	border:1px solid gray;
+	margin:-1px;
+	margin-left: 64.75%;
 }
 
 /*description for order page "please fill out the info below"*/
