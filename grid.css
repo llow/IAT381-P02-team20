@@ -40,10 +40,11 @@
 .col-1of2 {
 	width: 50%;
 	height: 45%;
-	background-color: #F2F2F2;
+
 	padding-top: 1%;
 	padding-bottom: 1%;
-	margin-bottom: 2%
+	margin-bottom: 2%;
+
 }
 
 /* About Us */
@@ -92,6 +93,23 @@
 
 }
 
+
+.Promo {
+	margin-bottom: 4rem;
+}
+
+.section-group {
+	width:100%;
+}
+
+.expansion{
+	width:100%;
+		border-style: solid;
+	border-width: 1px;
+}
+
+
+
 @media (max-width: 1300px) {
 	.col-2of3 {
 		margin-left: 10%;
@@ -129,14 +147,37 @@
 }
 
 
+
 @media (max-width: 1020px) {
 
 	.col-1of4{
 		width:33.333%;
+}
+@media (max-width: 1019px) {
+
+	.col-1of4{
+		width:25%;
+		/*clear: both;*/
 	}
 
-	.muffin {
-	width: 70%;
+
+
+	.col-1of2{
+		width:50%;
+		clear: both;
+		
+	}
+}
+
+@media (max-width: 949px) {
+
+	.col-1of4{
+		width:25%;
+		/*clear: both;*/
+	}
+
+	.Muffin{
+		width:90%;
 	}
 
 	h4 {
@@ -172,6 +213,20 @@
 	}
 
 }
+
+@media(max-width: 914px){
+	.col-1of2{
+		width: 50%;
+		/*clear: both;*/
+	}
+
+	.MuffinExpand{
+		width:50%;
+	}
+}
+
+
+
 
 /* specify it is a media query, must have a space after media*/
 @media (max-width: 800px) {
@@ -232,11 +287,14 @@
 	}
 }
 
-@media (max-width: 700){
+@media (max-width: 903){
 	.col-1of4{
 		width: 50%;
+
 	}
-	.col-1of4 .muffin {
+
+
+	.Muffin {
 	width: 70%;
 	}
 	h4 {
@@ -309,6 +367,7 @@
 	.col-1of4{
 		/*text-align: left;*/
 		width: 50%;
+		/*clear: both;*/
 
 	}
 

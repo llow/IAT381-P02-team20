@@ -5,6 +5,7 @@ body{
 	font-size: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
+
 }
 
 h1 {
@@ -163,7 +164,7 @@ form input:active {
 
 figure {
 	margin-right: 0;
-	margin-left: 6%;
+	margin-left: 0;
 	margin-bottom:0;
 	margin-top: 0;
 
