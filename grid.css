@@ -73,9 +73,6 @@
 	width:25%;
 	text-align: left;
 	margin-bottom: 1rem;
-
-
-
 }
 
 /* About Us */
@@ -92,46 +89,6 @@
 	margin: 1rem;
 	display: block;
 }
-
-.PromoDescrip {
-	margin-left: 8rem;
-	margin-right: 8rem;
-	margin-bottom: 4rem;
-
-}
-
-.ReviewItem {
-	width:95%;
-	padding:2%;
-	border:1px solid gray;
-	margin:-1px;
-}
-
-.TotalPrice {
-	text-align: right;
-	width:30%;
-	padding:2%;
-	border:1px solid gray;
-	margin:-1px;
-	margin-left: 64.75%;
-}
-
-/*description for order page "please fill out the info below"*/
-.des {
-	width:100%;
-	text-align: left;
-	margin-bottom: 1rem;
-
-}
-
-.Promo {
-	margin-bottom: 4rem;
-}
-
-.section-group {
-	width:100%;
-}
-
 
 @media (max-width: 1300px) {
 	.col-2of3 {
