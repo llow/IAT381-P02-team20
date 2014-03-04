@@ -113,7 +113,6 @@ form input,form textarea {
 
 }
 
-
 section input {
 	font-family: 'Duru Sans', sans-serif; 
 	font-size: 0.6rem; /*affects button size*/
@@ -150,8 +149,6 @@ form input:active {
 
 }
 
-
-
 figure {
 	margin-right: 0;
 	margin-left: 6%;
@@ -159,7 +156,44 @@ figure {
 	margin-top: 0;
 
 }
+.PromoDescrip {
+	margin-left: 8rem;
+	margin-right: 8rem;
+	margin-bottom: 4rem;
 
+}
+
+.ReviewItem {
+	width:95%;
+	padding:2%;
+	border:1px solid gray;
+	margin:-1px;
+}
+
+.TotalPrice {
+	text-align: right;
+	width:30%;
+	padding:2%;
+	border:1px solid gray;
+	margin:-1px;
+	margin-left: 64.75%;
+}
+
+/*description for order page "please fill out the info below"*/
+.des {
+	width:100%;
+	text-align: left;
+	margin-bottom: 1rem;
+
+}
+
+.Promo {
+	margin-bottom: 4rem;
+}
+
+.section-group {
+	width:100%;
+}
 
 
 
