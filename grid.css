@@ -109,7 +109,6 @@
 }
 
 
-
 @media (max-width: 1300px) {
 	.col-2of3 {
 		margin-left: 10%;
@@ -148,11 +147,23 @@
 
 
 
+
 @media (max-width: 1020px) {
 
 	.col-1of4{
 		width:33.333%;
 }
+}
+@media (max-width: 1019px) {
+
+	.col-1of4{
+		width:25%;
+		/*clear: both;*/
+	}
+}
+
+
+
 @media (max-width: 1019px) {
 
 	.col-1of4{
@@ -161,6 +172,10 @@
 	}
 
 
+
+	.Muffin .MuffinExpand{
+		width:90%;
+	}
 
 	.col-1of2{
 		width:50%;
@@ -178,6 +193,7 @@
 
 	.Muffin{
 		width:90%;
+
 	}
 
 	h4 {
@@ -210,6 +226,8 @@
 	}
 	h5 {
 		word-spacing: 2.5rem;
+
+
 	}
 
 }
@@ -292,7 +310,6 @@
 		width: 50%;
 
 	}
-
 
 	.Muffin {
 	width: 70%;
