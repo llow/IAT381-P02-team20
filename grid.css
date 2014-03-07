@@ -45,7 +45,6 @@
 .col-1of2 {
 	width: 50%;
 	height: 45%;
-
 	padding-top: 1%;
 	padding-bottom: 1%;
 	margin-bottom: 2%;
@@ -55,7 +54,7 @@
 /* About Us */
 .col-1of3A {
 	width:33.33%;
-	/*margin-left: 5%;*/
+	margin-left: 5%;
 }
 
 /*Contact*/
@@ -96,12 +95,19 @@
 .col-1of3D {
 	width: 30%;
 	text-align: left;
-
 }
 
-
-.Promo {
-	margin-bottom: 4rem;
+.col-PromoA {
+	width:28%;
+	margin-right: 5%;
+	margin-left: 4%;
+}
+.col-PromoB {
+	width:28%;
+}
+.col-PromoC {
+	width:28%;
+	margin-left: 5%;
 }
 
 .section-group {
@@ -151,15 +157,14 @@
 	}
 }
 
-
-
-
-
 @media (max-width: 1020px) {
-
 	.col-1of4{
 		width:33.333%;
-}
+	}
+	.logo {
+		width:99%;
+		padding-top: 25px;
+	}
 }
 @media (max-width: 1019px) {
 
@@ -247,12 +252,9 @@
 	}
 	h4 {
 		word-spacing: 5rem;
-
 	}
 	h5 {
 		word-spacing: 2.5rem;
-
-
 	}
 
 }
@@ -278,9 +280,6 @@
 		width:50%;
 	}
 }
-
-
-
 
 
 /* specify it is a media query, must have a space after media*/
@@ -329,6 +328,9 @@
 	}
 	.col-1of3D {
 		padding-top: 3rem;
+	}
+	.logo {
+		width: 40%;
 	}
 
 }
