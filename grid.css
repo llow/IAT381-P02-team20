@@ -14,11 +14,16 @@
 	clear: both;
 }
 
+
 /* * says we want to style everything */
 *, *:after, *:before { 
 	-webkit-box-sizing: border-box;
 	- moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.clear-floats {
+     clear: both;
 }
 
 /*Nav Bar*/
@@ -70,6 +75,7 @@
 /* Product Page */
 .col-1of4 {
 	width:25%;
+	height: 20rem;
 	text-align: left;
 	margin-bottom: 1rem;
 }
