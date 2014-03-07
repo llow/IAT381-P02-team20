@@ -74,7 +74,14 @@
 /* Product Page */
 .col-1of4 {
 	width:25%;
-	height: 20rem;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
+.product{
+	display: inline-block;
+	width:24%;
+	vertical-align: top;
 	text-align: left;
 	margin-bottom: 1rem;
 }
