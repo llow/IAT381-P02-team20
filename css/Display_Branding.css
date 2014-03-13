@@ -72,11 +72,19 @@ h7 {
 	display: block;
 }
 
+
+
 p {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 0.8rem;
 	color: #424242;
 	text-align: left;
+}
+
+form p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.6rem;
+	color: #424242;
 }
 
 ul {
