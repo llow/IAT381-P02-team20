@@ -212,7 +212,7 @@
 	}
 	.col-1of2{
 		width:50%;
-		clear: both;	
+		/*clear: both;	*/
 	}
 }
 
