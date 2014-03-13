@@ -404,6 +404,13 @@
 	.col-1of3D {
 		padding-top: 1rem;
 	}
+
+	.basket{
+	width: 15%;
+	position:fixed;
+	right:10px;
+	top:340px;
+	}
 }
 
 @media (max-width: 780){
@@ -617,8 +624,8 @@
 	}
 
 	.basket{
-		width:15%;
-		top:240px;
+		width:16%;
+		top:255px;
 	}
 
 
