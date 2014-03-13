@@ -283,5 +283,8 @@ form input:active {
 
 }
 
+.basket img:hover{
+	opacity:0.4;
+}
 
 
