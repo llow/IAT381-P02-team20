@@ -112,7 +112,9 @@ nav a:hover, nav a:active, nav a:focus {
 	color: #000000;
 }
 
-
+a {
+	color: #9e8d7d;
+}
 
 img {
 	margin-bottom: 0rem;
@@ -161,7 +163,6 @@ section input {
 }
 
 
-
 .product #add, .product input[type="submit"], .expansion input[type="submit"] {
 	font-family: 'Duru Sans', sans-serif; 
 	font-size: 0.6rem; /*affects button size*/
@@ -172,7 +173,17 @@ section input {
 
 }
 
+#Edit1 {
+	margin-top: -1rem;
+	margin-left: 110%;
+	float: left;
+}
 
+#Edit2 {
+	margin-top: -1rem;
+	margin-left: 110%;
+	float: left;
+}
 
 form input:hover, form textarea:hover{
 	border-color: #A87B4F;
@@ -196,7 +207,6 @@ form input:active {
 
 .Promo {
 	margin-bottom: 2rem;
-	margin-top: 2rem;
 	width: 90%;
 }
 
@@ -259,20 +269,17 @@ form input:active {
 	padding: 10px;
 	border: 1px solid;
 	border-color: #A87B4F;
-	float:center;
 	margin-bottom: 20px;
 	margin-top: 10px;
 	text-align: center;
-
 }
 
 .CommentTY {
 	width:100%;
-	height:100px;
+	height:75px;
 	padding: 10px;
 	border: 1px solid;
 	border-color: #A87B4F;
-	float:center;
 	margin-bottom: 20px;
 	margin-top: 10px;
 	text-align: center;
