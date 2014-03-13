@@ -299,7 +299,7 @@ form input:active {
 
 }
 
-.basket img:hover{
+.basket img:hover, .grid img:hover{
 	opacity:0.4;
 }
 
