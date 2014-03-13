@@ -4,6 +4,7 @@
   <head>
     <!--  This defines what character set (language/fonts) by this webpage -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Display_Branding.css" rel="stylesheet">
     <link rel="stylesheet" href="grid.css">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -12,23 +13,22 @@
   </head>
 
    <body>
-    <header id="top">
+ <header id="top">
       <nav class="grid">
-
         <div class="col-1of5A">
-        <a href="Home.html"><img class="logo" alt="logo" src="muffintop_LOGO.png" width="200" height="125"></a>
+        <a href="Home.html"><img class="logo" alt="logo" src="muffintop_LOGO.png"></a>
           </div>
       
         <div class="col-1of5B">
-        <a href="AboutUs.html"><h3>AboutUs</h3></a>
+        <a href="AboutUs.html"><h3>About Us</h3></a>
           </div>
         
         <div class="col-1of5B">
-        <a href="OurMuffins.html"><h3>OurMuffins</h3></a>
+        <a href="OurMuffins.html"><h3>Our Muffins</h3></a>
           </div>
 
           <div class="col-1of5B">
-        <a href="ReviewOrder.html" ><h3>MyBasket</h3></a>
+        <a href="ReviewOrder.html" ><h3>My Basket</h3></a>
           </div>
 
         <div class="col-1of5B">
@@ -52,19 +52,22 @@
   <div class="col-2of3A"> 
     <div class="ReviewItem">
       <h4>
-        <img src="muffin_img/bran_muffin.jpg" alt="review" width="100" height ="100"> 
+        <img src="muffin_img/bran_muffin.jpg" id="reviewimg" alt="review" width="100" height ="100"> 
         MuffinName 
-        QTY<input type="number" name="quantity" min="1" max="24">
+        QTY 2
         $5.98
+       <input type="submit" value="Edit">
       </h4>
     </div>
 
     <div class="ReviewItem">
       <h4>
-        <img src="muffin_img/bran_muffin.jpg" alt="review" width="100" height ="100">    
+        <img src="muffin_img/bran_muffin.jpg" id="reviewimg" alt="review" width="100" height ="100"> 
         MuffinName 
-        QTY<input type="number" name="quantity" min="1" max="24">
+        QTY 2
         $5.98
+        <!-- Buttons-->
+        <input type="submit" value="Edit">
       </h4>
     </div>  
 
@@ -82,31 +85,35 @@
         <h6> Please fill out information below to complete order.</h6>
 
         <!-- Labels are associated with 'ids', NOT with 'name' attributes --> 
-        <label for="form-name">Name:</label>
+        <label form="form-name">Name:</label>
         <!-- Input elements should have a 'type' defined to help with processing -->
         <input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
 
-        <label for="form-email">Email:</label>
+        <label form="form-email">Email:</label>
         <input type="text" id="form-email" name="form-email" placeholder="janedoe@gmail.com">
 
-        <label for="form-phone">Phone Number:</label>
+        <label form="form-phone">Phone Number:</label>
         <input type="text" id="form-phone" name="form-phone" placeholder="555-555-5555">
 
-        <label for="form-pickDate">Pick-Up Date:</label>
+        <label form="form-pickDate">Pick-Up Date:</label>
         <input type="text" id="form-pickDate" name="form-pickDate" placeholder="MM/DD/YYYY">
 
-        <label for="form-pickTime">Pick-Up Time:</label>
+        <label form="form-pickTime">Pick-Up Time:</label>
         <input type="text" id="form-time" name="form-time" placeholder="00:00 AM">
 
-        <label for="form-comment">Comment:</label>
+        <label form="form-comment">Comment:</label>
         <!-- Textareas allow for multi-line text input instead of a single line -->
         <textarea id="form-comment" name="form-comment" placeholder="Please place comment here"></textarea>
       </form>
 
       <section id="buttons">
         <!-- Buttons-->
-        <input type="submit" value="Submit your comment">
+        <a href="OrderThankYou.html">
+        <input type="submit" value="Submit Your Order">
+      </a>
+      <a href="OurMuffins.html">
         <input type="submit" value="Back">
+      </a>
       </section>
 
     </div> <!--closes ReviewInfo class -->
