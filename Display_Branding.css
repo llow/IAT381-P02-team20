@@ -112,6 +112,8 @@ nav a:hover, nav a:active, nav a:focus {
 	color: #000000;
 }
 
+
+
 img {
 	margin-bottom: 0rem;
 }
@@ -138,7 +140,7 @@ form label {
 	margin-top: 1rem;
 }
  
-form input,form textarea {
+form input[type="text"],form textarea {
 	display: block;
 	font-size: 0.6rem;
 	padding: 0.25rem;
@@ -158,6 +160,20 @@ section input {
 	float:right;
 }
 
+
+
+.product #add, .product input[type="submit"], .expansion input[type="submit"] {
+	font-family: 'Duru Sans', sans-serif; 
+	font-size: 0.6rem; /*affects button size*/
+	color: #ffffff;
+	border: 0.1rem solid #000000;
+	border-radius: 0.15rem;
+	background-color: #9e8d7d;
+
+}
+
+
+
 form input:hover, form textarea:hover{
 	border-color: #A87B4F;
 
@@ -176,12 +192,7 @@ form input:active {
 
 }
 
-figure {
-	margin-right: 0;
-	margin-left: 0;
-	margin-bottom:0rem;
-	margin-top: 0;
-}
+
 
 .Promo {
 	margin-bottom: 2rem;
@@ -236,6 +247,7 @@ figure {
 	text-align: right;
 }
 
+
 .logo {
 	vertical-align: bottom;
 }
@@ -263,6 +275,10 @@ figure {
 	margin-bottom: 20px;
 	margin-top: 10px;
 	text-align: center;
+
+}
+.expansion {
+	border:1px solid;
 
 }
 
