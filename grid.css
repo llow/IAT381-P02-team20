@@ -1,0 +1,628 @@
+/*Grid.css for entire site*/
+
+/* grid.css; defining grids for my site */
+
+/* *= looking for specific string, whenever it reference col- apply this styling */
+[class*='col-'] {
+	float: left;
+	text-align: center;
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* * says we want to style everything */
+*, *:after, *:before { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clear-floats {
+     clear: both;
+}
+
+/*Nav Bar*/
+.col-1of5A {
+	width:20%;
+}
+
+/*Nav Bar*/
+.col-1of5B {
+	width:20%;
+	padding-top: 6rem;
+}
+
+/*Home Page*/
+.col-1of1 {
+	width:100%;
+}
+
+.col-1of2 {
+	width: 50%;
+	height: 270px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+
+
+}
+
+.expansion{
+	width: 100%;
+	height:270px;
+}
+
+/* About Us */
+.col-1of3A {
+	width:33.33%;
+	margin-left: 5%;
+}
+
+/*Contact*/
+.col-1of3 {
+	width: 33.33%;
+	text-align: left;
+	margin-left: 3%;
+}
+
+/*Contact Page*/
+.col-1of3B {
+	width: 20%;
+	/*margin-right: 5%;*/
+	text-align: left;
+}
+
+/* Product Page */
+.col-1of4 {
+	width:25%;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
+.product{
+	display: inline-block;
+	width:24%;
+	height: 350px;
+	vertical-align: top;
+	text-align: left;
+	margin-bottom: 1rem;
+	padding-right: 1%;
+
+}
+
+.basket{
+	width: 8%;
+	position:fixed;
+	right:10px;
+	top:200px;
+}
+
+
+
+
+/*expand page*/
+.expansion #close {
+   float:right;
+
+
+}
+
+
+/* About Us */
+.col-2of3 {
+	width: 50%;
+	text-align: left;
+}
+
+/* ReviewItem */
+.col-2of3A {
+	width: 60%;
+	margin-right: 10%;
+}
+
+/*ReviewInfo */
+.col-1of3D {
+	width: 30%;
+	text-align: left;
+}
+
+.col-PromoA {
+	width:28%;
+	margin-right: 5%;
+	margin-left: 4%;
+}
+.col-PromoB {
+	width:28%;
+}
+.col-PromoC {
+	width:28%;
+	margin-left: 5%;
+}
+
+.section-group {
+	width:100%;
+}
+
+
+
+.logo {
+	vertical-align: bottom;
+}
+
+
+@media (max-width: 1300px) {
+	.col-2of3 {
+		margin-left: 10%;
+		width: 45%;
+	}
+
+}
+
+@media (max-width: 1260px) {
+	h4 {
+		word-spacing: 1rem;
+		font-size: 0.95rem;
+	}
+	h5 {
+		word-spacing: 0.5rem;
+		font-size: 0.95rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	.col-1of3M {
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.col-1of3 {
+		width: 50%;
+		margin-left: 5%;
+	}
+	.col-1of3B {
+		width: 25%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 1020px) {
+
+	.Muffin{
+		width:90%;
+	}
+}
+
+@media (max-width: 1019px) {
+
+	.col-1of4{
+		width:25%;
+
+	}
+
+	.Muffin .MuffinExpand{
+		width:90%;
+	}
+
+	.col-1of2{
+		width:50%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.col-2of3 {
+		margin-left: 10%;
+		width: 45%;
+	}
+
+	.logo {
+		width:99%;
+		padding-top: 25px;
+	}
+}
+
+@media(max-width: 990px){
+	.logo {
+		width:90%;
+		height: 90%;
+		padding-top: 2.5rem;
+		float: none;
+		vertical-align: bottom;
+	}
+
+	h4 {
+		word-spacing: 0.5rem;
+	}
+}
+
+@media (max-width: 949px) {
+
+	h4 {
+		word-spacing: 0.5rem;
+	}
+	h5 {
+		word-spacing: 0rem;
+	}
+
+	.product {
+		height:90%;
+	}
+
+	.col-1of4{
+		width:25%;
+		/*clear: both;*/
+	}
+	.Muffin{
+		width:90%;
+	}
+}
+
+
+@media(max-width: 914px){
+	.col-1of2{
+		width: 50%;
+		/*clear: both;*/
+	}
+
+	.Muffin {
+		width:90%;
+	}
+
+	.MuffinExpand{
+		width:70%;
+		/*width:50%;*/
+	}
+
+	.col-2of3 {
+		width: 100%;
+		margin: 0%;
+	}
+	.col-1of3A {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 15px;
+	}
+
+}
+
+
+@media (max-width: 903px){
+
+
+	.Muffin {
+		width: 70%;
+	}
+
+	.col-1of4{
+		width: 50%;
+	}
+
+	h4 {
+		word-spacing: 2rem;
+	}
+}
+
+
+@media (max-width: 880px) {
+	.col-2of3A {
+		width: 100%;
+	}
+	.col-1of3D {
+		width: 100%;
+		margin-top:2rem; 
+	}
+	h4 {
+		word-spacing: 3rem;
+	}
+	h5 {
+		word-spacing: 2.5rem;
+	}
+
+	.logo {
+		padding-top: 3rem;
+	}
+
+}
+
+
+
+/* specify it is a media query, must have a space after media*/
+@media (max-width: 800px) {
+	.Promo{
+		width: 100%;
+	}
+
+	.col-1of5B, .col-1of5A {
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.logo {
+		display:block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.col-2of3 {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.des{
+		width:100%;
+	}
+
+	.col-1of3A {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.col-1of3 {
+		width: 50%;	
+		margin-top: 5%;
+	}
+	.col-1of3B {
+		width: 40%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+	}
+	.col-2of3A {
+		width:100%;
+	}
+	.col-1of3D {
+		padding-top: 2rem;
+	}
+	h4 {
+		word-spacing: 2rem;
+	}
+
+	.product {
+		width: 49%;
+		height:100%;
+	}
+
+	.Muffin{
+		width:80%;
+	}
+
+	h5 {
+		font-size: 1rem;
+	}
+
+	.col-1of3D {
+		padding-top: 1rem;
+	}
+}
+
+@media (max-width: 780px){
+	h4 {
+		word-spacing: 3.5rem;
+	}
+
+	h5 {
+		word-spacing: 1rem;
+	}
+}
+
+
+@media (max-width: 700px) {
+	h5 {
+		font-size: 1rem;
+		word-spacing: 0.6rem;	
+	}
+
+	h4 {
+		word-spacing: 1.5rem;
+	}
+
+	.MuffinExpand{
+		width:70%;
+	}
+
+}
+
+
+
+@media (max-width: 640px) {
+	.col-1of3D {
+		padding-top: 1rem;
+	}
+	.col-1of3 {
+		width: 100%;
+		margin-left: 30%;
+	}
+	.col-1of3B {
+		width: 100%;
+		margin-left: 25%;
+	}
+
+	.col-2of3A h2 {
+		font-size: 0.5rem;
+	}
+	h6 {
+		font-size: 0.9rem;
+	}
+	h5 {
+		word-spacing: 0;
+	}
+	h4 {
+		word-spacing: 1rem;
+	}
+
+	.MuffinExpand{
+		width:90%;
+	}
+}	
+
+@media (max-width: 580px) {
+
+	ul {
+		text-align: left;
+	}
+	h4 {
+		word-spacing: 0.5rem; 
+	}
+	h5 {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 532px) {
+	h4 {
+		font-size: 0.7rem;
+	}
+	h5 {
+		font-size: 0.8rem;
+	}
+	h6 {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 530px) {
+	.col-1of3D {
+		padding-top: 1rem;
+	}
+	h4 {
+		font-size: 0.9rem;
+	}
+	h5 {
+		font-size: 0.8rem;
+	}
+	h6 {
+		font-size: 0.8rem;
+	}
+	#reviewing {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 505px) {
+	.col-1of3D {
+		padding-top: 1rem;
+	}
+	h6 {
+		font-size: 0.7rem;
+	}
+}
+
+
+@media (max-width: 480px) {
+/*	.col-1of5B {
+		width: 100%;
+		padding-top: 0;
+	}*/
+
+	.col-1of5A {
+		width: 100%;
+	}
+
+	.PromoDescrip {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.col-1of4{
+		/*text-align: left;*/
+		width: 50%;
+		/*clear: both;*/
+	}
+
+	.col-1of3 {
+		margin-left: 10%;
+	}
+
+	.col-1of3B {
+		margin-left: 10%;
+	}
+
+	.product{
+		width: 49%;
+
+	}
+
+	.col-1of4 .muffin {
+		width: 50%;
+	}
+
+	.des{
+		width:100%;
+	}
+
+	.col-1of2 {
+		width: 100%;
+		padding-top: 1rem;
+		/*height: 300px;*/
+	}
+
+	.col-2of3 {
+		width: 100%;
+		text-align: left;
+	}
+
+	h5 {
+		font-size: 0.7rem;
+	}
+
+	.col-1of3A {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.col-1of3D {
+		padding-top: 0.5rem;
+	}
+
+	.col-PromoA {
+		width: 100%;
+		margin-left: 0;
+	}
+	.col-PromoB {
+		width: 100%;
+		margin-left: 0;
+	}
+	.col-PromoC {
+		width: 100%;
+		margin-left: 0;
+	}
+	.footer {
+		text-align: center;
+	}
+
+
+	.expansion{
+		height:530px;
+	}
+
+	.MuffinExpand{
+		width:60%;
+	}
+
+	.col-1of2 article {
+		padding-left: 5%;
+	}
+
+	.basket{
+		width:15%;
+		top:240px;
+	}
+
+
+
+}
