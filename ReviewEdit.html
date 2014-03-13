@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="css/grid.css">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
-    <title>Thank You!</title>
+    <title>My Muffin Order</title>
   </head>
 
    <body>
-<header id="top">
+ <header id="top">
       <nav class="grid">
         <div class="col-1of5A">
         <a href="Home.html"><img class="logo" alt="logo" src="muffin_img/muffintop_LOGO.png"></a>
@@ -43,15 +43,6 @@
     </header>
 <!-- End Nav Bar Class -->
 
-        <div class="col-1of1">
-        <div class="OrderTY">
-          <h2>
-          Thank You for your order. A confirmation email will be sent.
-          We will have your order ready for pick up. <a href="Contact.html"> Find our Location</a> or <a href="OurMuffins.html"> Place another order.</a>
-        </h2>
-        </div>
-         </div> <!--closing the div class for line -->
-
 <!-- start of the content -->
 <div class="ReviewOrder">
   <div class="col-1of1">
@@ -63,7 +54,7 @@
       <h4>
         <img src="muffin_img/bran_muffin.jpg" id="reviewimg" alt="review" width="100" height ="100"> 
         MuffinName 
-        QTY 2
+       QTY<input type="number" name="quantity" min="1" max="24">
         $5.98
       </h4>
     </div>
@@ -72,7 +63,7 @@
       <h4>
         <img src="muffin_img/bran_muffin.jpg" id="reviewimg2" alt="review" width="100" height ="100"> 
         MuffinName 
-        QTY 2
+       QTY<input type="number" name="quantity" min="1" max="24">
         $5.98
       </h4>
     </div>  
@@ -114,8 +105,13 @@
 
       <section id="buttons">
         <!-- Buttons-->
+      <form action="OrderThankYou.html">
         <input type="submit" value="Submit Your Order">
+      </form>
+
+      <form action="OurMuffins.html">
         <input type="submit" value="Back">
+      </form>
       </section>
 
     </div> <!--closes ReviewInfo class -->
