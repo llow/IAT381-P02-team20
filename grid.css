@@ -127,6 +127,10 @@
 	border-width: 1px;
 }
 
+.logo {
+	vertical-align: bottom;
+}
+
 
 @media (max-width: 1300px) {
 	.col-2of3 {
@@ -138,7 +142,7 @@
 
 @media (max-width: 1260px) {
 	h4 {
-		word-spacing: 2rem;
+		word-spacing: 1rem;
 		font-size: 0.95rem;
 	}
 	h5 {
@@ -148,12 +152,12 @@
 }
 
 @media (max-width: 1100px) {
-	.col-1of3A {
+	.col-1of3M {
+		display: block;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-
 	.col-1of3 {
 		width: 50%;
 		margin-left: 5%;
@@ -168,35 +172,7 @@
 	.col-1of4{
 		width:33.333%;
 	}
-	.logo {
-		width:99%;
-		padding-top: 25px;
-	}
 }
-@media (max-width: 1019px) {
-
-	.col-1of4{
-		width:25%;
-		/*clear: both;*/
-}
-}
-@media (max-width: 1019px) {
-
-	.col-1of4{
-		width:25%;
-		/*clear: both;*/
-	}
-
-
-
-	.Muffin .MuffinExpand{
-		width:90%;
-
-	}
-}
-
-
-
 
 @media (max-width: 1019px) {
 
@@ -204,47 +180,82 @@
 		width:25%;
 		/*clear: both;*/
 	}
-
-
-
 	.Muffin .MuffinExpand{
 		width:90%;
 	}
-
-
 	.col-1of2{
 		width:50%;
-		clear: both;
-		
+		clear: both;	
 	}
-}
-
-@media (max-width: 949px) {
-
-	.col-1of4{
-		width:25%;
-		/*clear: both;*/
-	}
-
-	.Muffin{
-		width:90%;
-
-
-	}
-
-	h4 {
-		word-spacing: 1rem;
-	}
-	h5 {
-		word-spacing: 0rem;
-	}
-
 }
 
 @media (max-width: 1000px) {
 	.col-2of3 {
-		margin-left: 20%;
+		margin-left: 10%;
 		width: 45%;
+	}
+}
+
+
+@media(max-width: 990px){
+	.logo {
+		width:90%;
+		height: 90%;
+		padding-top: 2.5rem;
+		float: none;
+		vertical-align: bottom;
+	}
+
+	h4 {
+		word-spacing: 0.5rem;
+	}
+
+@media (max-width: 949px) {
+	.col-1of4{
+		width:25%;
+		/*clear: both;*/
+	}
+	.Muffin{
+		width:90%;
+	}
+	h4 {
+		word-spacing: 0.5rem;
+	}
+	h5 {
+		word-spacing: 0rem;
+	}
+}
+
+@media(max-width: 914px){
+	.col-1of2{
+		width: 50%;
+		/*clear: both;*/
+	}
+
+	.MuffinExpand{
+		width:50%;
+	}
+	.col-2of3 {
+		width: 100%;
+		margin: 0%;
+	}
+	.col-1of3A {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 903){
+	.col-1of4{
+		width: 50%;
+	}
+	.Muffin {
+	width: 70%;
+	}
+	h4 {
+		word-spacing: 2rem;
 	}
 }
 
@@ -254,53 +265,36 @@
 	}
 	.col-1of3D {
 		width: 100%;
-		margin-top:50%; 
-		float: center;
+		margin-top:2rem; 
 	}
 	h4 {
-		word-spacing: 5rem;
+		word-spacing: 3rem;
 	}
 	h5 {
 		word-spacing: 2.5rem;
 	}
+	.logo {
+		padding-top: 3rem;
+	}
 
 }
-
-@media(max-width: 914px){
-	.col-1of2{
-		width: 50%;
-		/*clear: both;*/
-	}
-
-	.MuffinExpand{
-		width:50%;
-	}
-}
-
-@media(max-width: 914px){
-	.col-1of2{
-		width: 50%;
-		/*clear: both;*/
-	}
-
-	.MuffinExpand{
-		width:50%;
-	}
-}
-
-
 /* specify it is a media query, must have a space after media*/
 @media (max-width: 800px) {
 	.Promo{
 		width: 100%;
 	}
 
-	.col-1of5A {
-		width: 100%;
-	}
-	.col-1of5B {
+	.col-1of5B, .col-1of5A {
 		width: 100%;
 		padding-top: 0;
+	}
+
+	.logo {
+		display:block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+
 	}
 
 	.col-2of3 {
@@ -320,24 +314,22 @@
 	}
 
 	.col-1of3 {
-		width: 100%;
-		margin-left: 25%;
-		margin-right: auto;
+		width: 50%;	
+		margin-top: 5%;
 	}
 	.col-1of3B {
 		width: 40%;
-		margin-left: 30%;
-		margin-top: 10%;
+		margin-top: 5%;
 		margin-bottom: 10%;
 	}
 	.col-2of3A {
 		width:100%;
 	}
 	.col-1of3D {
-		padding-top: 3rem;
+		padding-top: 2rem;
 	}
-	.logo {
-		width: 40%;
+	h4 {
+		word-spacing: 2rem;
 	}
 
 }
@@ -348,30 +340,36 @@
 		word-spacing: 3.5rem;
 	}
 	h5 {
-		word-spacing: 1rem;
+		font-size: 1rem;
+	}
+	.col-1of3D {
+		padding-top: 1rem;
 	}
 }
 
-
-@media (max-width: 903){
-	.col-1of4{
-		width: 50%;
-
-	}
-
-	.Muffin {
-	width: 70%;
+@media (max-width: 700px) {
+	h5 {
+		font-size: 1rem;
+		word-spacing: 0.6rem;	
 	}
 	h4 {
-		word-spacing: 2rem;
+		word-spacing: 1.5rem;
 	}
-
 }
 
 @media (max-width: 640px) {
 	.col-1of3D {
-		padding-top: 5rem;
+		padding-top: 1rem;
 	}
+	.col-1of3 {
+		width: 100%;
+		margin-left: 30%;
+	}
+	.col-1of3B {
+		width: 100%;
+		margin-left: 25%;
+	}
+
 	.col-2of3A h2 {
 		font-size: 0.5rem;
 	}
@@ -387,14 +385,21 @@
 }	
 
 @media (max-width: 580px) {
+
+	ul {
+		text-align: left;
+	}
 	h4 {
-		word-spacing: 0; 
+		word-spacing: 0.5rem; 
+	}
+	h5 {
+		font-size: 0.8rem;
 	}
 }
 
-@media (max-width: 530px) {
-	.col-1of3D {
-		padding-top: 7rem;
+@media (max-width: 532px) {
+	h4 {
+		font-size: 0.7rem;
 	}
 	h5 {
 		font-size: 0.8rem;
@@ -404,9 +409,28 @@
 	}
 }
 
+@media (max-width: 530px) {
+	.col-1of3D {
+		padding-top: 1rem;
+	}
+	h4 {
+		font-size: 0.9rem;
+	}
+	h5 {
+		font-size: 0.8rem;
+	}
+	h6 {
+		font-size: 0.8rem;
+	}
+	#reviewing {
+		width: 50px;
+		height: 50px;
+	}
+}
+
 @media (max-width: 505px) {
 	.col-1of3D {
-		padding-top: 7rem;
+		padding-top: 1rem;
 	}
 	h6 {
 		font-size: 0.7rem;
@@ -433,7 +457,14 @@
 		/*text-align: left;*/
 		width: 50%;
 		/*clear: both;*/
+	}
 
+	.col-1of3 {
+		margin-left: 10%;
+	}
+
+	.col-1of3B {
+		margin-left: 10%;
 	}
 
 	.col-1of4 .muffin {
@@ -449,10 +480,13 @@
 		padding-top: 1rem;
 	}
 
-
 	.col-2of3 {
 		width: 100%;
-		text-align: center;
+		text-align: left;
+	}
+
+	h5 {
+			font-size: 0.7rem;
 	}
 
 	.col-1of3A {
@@ -461,18 +495,26 @@
 		margin-right: auto;
 	}
 
-	.col-1of3 {
+	.col-1of3D {
+		padding-top: 0.5rem;
+	}
+
+	.col-PromoA {
 		width: 100%;
-		margin-left: 10%;
-		margin-right: auto;
+		margin-left: 0;
 	}
-	.col-1of3B {
-		width: 60%;
-		margin-left: 20%;
-		margin-right: auto;
-		margin-top: 10%;
-		margin-bottom: 10%;
+	.col-PromoB {
+		width: 100%;
+		margin-left: 0;
 	}
+	.col-PromoC {
+		width: 100%;
+		margin-left: 0;
+	}
+	.footer {
+		text-align: center;
+	}
+
 
 
 
